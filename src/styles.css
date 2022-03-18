@@ -1,0 +1,91 @@
+body {
+  background-color: #f1f4f8;
+  padding: 20px;
+  margin: 0;
+}
+
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: #74BA54;
+  padding: 0;
+}
+
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.content {
+  height: 100vh;
+  background-color: #FFF;
+  padding: 20px;
+}
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+.active {
+  background-color: #4CAB0A;
+}
+
+.over-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-box {
+  background: white;
+  border: 1px solid #dedede;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 30px 50px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.form-box input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-box label {
+  color: #3d3d3d;
+  display: block;
+  font-weight: 500;
+  padding-bottom: 30px;
+  box-shadow: #4CAB0A;
+}
+
+.form-box .submit-button {
+  background-color: #035003;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 20px 0px;
+}
